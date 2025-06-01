@@ -32,7 +32,7 @@ mycoin-crypto-cab/
 │   ├── cabcrypto.h
 │   ├── miner.h
 │   └── wallet.h
-└── src/                             # Source code utama
+└── source/                             # Source code utama
     ├── main.c
     ├── blockchain.c
     ├── cabcrypto.c
