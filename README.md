@@ -6,7 +6,7 @@
 
 ## 🍇 Tentang Proyek
 
-**CAB Coin (Archana Berry Coin)** adalah proyek cryptocurrency ringan dan modular, terinspirasi oleh arsitektur Verus Coin namun didesain ulang dengan sistem database fleksibel dan struktur modular yang dapat dikembangkan untuk eksperimen OS seperti *Archana Berry OS (ABOS)*.
+**CAB Coin (Archana Berry Coin)** adalah proyek cryptocurrency ringan dan modular, terinspirasi oleh arsitektur Verus Coin namun didesain ulang dengan sistem database fleksibel dan struktur modular yang dapat dikembangkan.
 
 > Selamat datang di repositori resmi CAB Coin — fondasi blockchain edukatif untuk eksperimen lightweight dan embedded-friendly.
 
