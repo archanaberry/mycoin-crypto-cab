@@ -87,11 +87,43 @@ Belum ada sistem identitas unik dompet (akan hadir via _identwallet.cabident)
 
 📦 Contoh Penggunaan CLI
 
-./cabcoin initwallet           # Membuat dompet baru
-./cabcoin showwallet           # Menampilkan info dompet
-./cabcoin addblock "txdata"    # Menambahkan blok dummy
+```
+./cabcoin initwallet
+# Membuat dompet baru dan menyimpan ke wallet.cabwallet
 
+./cabcoin showwallet
+# Menampilkan informasi dompet: address, balance, history, block count
 
+./cabcoin addblock "txdata"
+# Menambahkan block dummy dengan data transaksi yang disimulasikan
+
+./cabcoin dumpwallet
+# (opsional) Menampilkan isi mentah file dompet untuk debugging
+
+./cabcoin dumpproof
+# (opsional) Menampilkan proof dummy dari block terakhir
+
+./cabcoin reindex
+# Re-scan dan validasi ulang semua block (fitur dummy saat ini)
+
+./cabcoin genident
+# (eksperimental) Membuat file identitas dompet: _identwallet.cabident
+
+./cabcoin sync
+# (fitur akan datang) Sinkronisasi blockchain dari sumber jaringan
+
+./cabcoin sendto <address> <amount>
+# (fitur akan datang) Mengirim saldo ke address tujuan
+
+./cabcoin exportwallet backup.cab
+# (fitur akan datang) Mengekspor dompet ke file backup
+
+./cabcoin importwallet backup.cab
+# (fitur akan datang) Mengimpor dompet dari backup
+
+./cabcoin help
+# Menampilkan semua perintah CLI yang tersedia
+```
 ---
 
 📄 Lisensi
