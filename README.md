@@ -12,6 +12,10 @@
 
 ---
 
+![Coin Archana Berry](archanaberry/coin.png)
+
+---
+
 ## 📁 Struktur Proyek
 
 ```
