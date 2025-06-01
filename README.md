@@ -1,33 +1,36 @@
-# mycoin-crypto-cab
-For educational blockchain with Blueberry Lowbush enviroment (⁠⊃⁠｡⁠•́⁠‿⁠•̀⁠｡⁠)⁠⊃ 🌱🫐
-
-🍇 Archana Berry Coin (CAB) - Cryptocurrency Project
-
-Welcome to the official repository of CAB Coin (Archana Berry Coin), a lightweight and customizable cryptocurrency based on Verus Coin principles, re-engineered with a flexible DB and modular architecture.
-Selamat datang di repositori resmi CAB Coin (Archana Berry Coin), sebuah proyek kripto ringan dan dapat dikembangkan ulang berdasarkan struktur Verus Coin, namun dengan sistem database dan arsitektur modular yang lebih fleksibel.
-
+# 🪙 CAB Coin – Archana Berry Cryptocurrency  
+**(mycoin-crypto-cab)**  
+> Educational blockchain for Blueberry Lowbush environment (⁠⊃⁠｡⁠•́⁠‿⁠•̀⁠｡⁠)⁠⊃ 🌱🫐
 
 ---
 
-📁 Project Structure / Struktur Proyek
+## 🍇 Tentang Proyek
 
-crypt_cab/
-├── include/               # Header files
-├── source/                # Main source code (bukan src/)
-│   ├── main.c             # Entrypoint utama
-│   ├── wallet.c           # Wallet management logic
-│   └── blockchain.c       # Block, chain, consensus logic
-├── build/                 # Output binary hasil kompilasi
-├── Makefile               # Untuk kompilasi
-├── README.md              # Dokumentasi ini
-├── LICENSE.ABPL           # Lisensi (lihat bagian Lisensi)
-└── image.png              # Dummy gambar repositori
+**CAB Coin (Archana Berry Coin)** adalah proyek cryptocurrency ringan dan modular, terinspirasi oleh arsitektur Verus Coin namun didesain ulang dengan sistem database fleksibel dan struktur modular yang dapat dikembangkan untuk eksperimen OS seperti *Archana Berry OS (ABOS)*.
 
+> Selamat datang di repositori resmi CAB Coin — fondasi blockchain edukatif untuk eksperimen lightweight dan embedded-friendly.
 
 ---
 
-🚀 Build Instructions / Cara Kompilasi
+## 📁 Struktur Proyek
 
+crypt_cab/ 
+├── include/               # Header file (.h) 
+├── source/                # Sumber utama (bukan src/) │   
+├── main.c             # Entrypoint 
+│   ├── wallet.c           # Logika dompet 
+│   └── blockchain.c       # Logika block dan chain 
+├── build/                 # Output binary hasil kompilasi 
+├── Makefile               # Untuk kompilasi 
+├── README.md              # Dokumentasi ini 
+├── LICENSE.ABPL           # Lisensi ABPL 
+└── image.png              # Dummy visual repositori
+
+---
+
+## 🚀 Cara Kompilasi
+
+```bash
 $ git clone https://github.com/archanaberry/cabcoin.git
 $ cd cabcoin
 $ make
@@ -37,53 +40,58 @@ $ ./cabcoin help
 
 ---
 
-🧠 Overview / Ringkasan Fitur
+🧠 Ringkasan Fitur
 
-✅ Lightweight blockchain core
+✅ Inti blockchain ringan
 
-✅ CLI wallet & blockchain interaction
+✅ Dompet CLI & interaksi blockchain
 
-⚠️ Custom DB (sementara dummy, belum lengkap)
+⚠️ DB kustom (masih dummy/test)
 
-❌ Belum ada file identitas dompet
+🔐 Belum ada file identitas dompet (_identwallet.cabident)
 
-🔧 Lisensi menggunakan ABPL (Archana Berry Public License)
+🔧 Lisensi eksklusif: ABPL (Archana Berry Public License)
 
 
 
 ---
 
-🛠️ How It Works / Cara Kerja Sederhana
+🛠️ Cara Kerja Singkat
 
-1. Saat dijalankan, program akan:
+1. Saat dijalankan:
 
-Membaca blockchain dari file (chain.cabdb)
+Membaca blockchain dari chain.cabdb
 
-Memuat wallet dari file (wallet.cabwallet)
+Memuat dompet dari wallet.cabwallet
 
-Menampilkan status wallet dan jumlah block
-
-
-2. Format dompet dan chain masih minimal:
-
-Satu file menyimpan semua data
-
-Tanpa identitas file (_identwallet.cabident belum dibuat)
-
-
-3. Transaksi, validasi, dan proof-of-work masih dummy
+Menampilkan status dompet dan jumlah blok
 
 
 
-📦 Sample CLI Usage / Contoh Pemakaian
+2. Format file masih sederhana:
 
-./cabcoin initwallet                  # Buat dompet baru
-./cabcoin showwallet                 # Tampilkan informasi dompet
-./cabcoin addblock "txdata"         # Tambah block dummy
+Satu file menyimpan semua data dompet & blok
+
+Belum ada sistem identitas unik dompet (akan hadir via _identwallet.cabident)
+
+
+3. Fitur transaksi, validasi, dan PoW masih berupa placeholder (dummy)
+
+
 
 
 ---
 
-📄 License / Lisensi
+📦 Contoh Penggunaan CLI
 
-This project is licensed under [Archana Berry Public License - ABPL](https://github.com/archanaberry/Lisensi).
+./cabcoin initwallet           # Membuat dompet baru
+./cabcoin showwallet           # Menampilkan info dompet
+./cabcoin addblock "txdata"    # Menambahkan blok dummy
+
+
+---
+
+📄 Lisensi
+
+Proyek ini dilisensikan di bawah [Archana Berry Public License - ABPL](https://github.com/archanaberry/Lisensi).
+Lisensi ini mendorong pembelajaran, eksplorasi, dan pengembangan sistem eksperimental berbasis Blueberry Environment.
