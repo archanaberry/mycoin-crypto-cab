@@ -14,6 +14,7 @@
 
 ## 📁 Struktur Proyek
 
+```
 crypt_cab/ 
 ├── include/               # Header file (.h) 
 ├── source/                # Sumber utama (bukan src/) │   
@@ -25,6 +26,7 @@ crypt_cab/
 ├── README.md              # Dokumentasi ini 
 ├── LICENSE.ABPL           # Lisensi ABPL 
 └── image.png              # Dummy visual repositori
+```
 
 ---
 
