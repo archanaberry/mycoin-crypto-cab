@@ -15,8 +15,26 @@
 ## 📁 Struktur Proyek
 
 ```
-crypt_cab/ 
-.                                                                                                                                                                                                      ├── Makefile                                                                                                                                                                                           ├── build                                                                                                                                                                                              │   ├── cabcoin                                                                                                                                                                                        │   ├── data                                                                                                                                                                                           │   │   └── chain.dat                                                                                                                                                                                  │   ├── pool                                                                                                                                                                                           │   └── wallet.dat                                                                                                                                                                                     ├── include                                                                                                                                                                                            │   ├── blockchain.h                                                                                                                                                                                   │   ├── cabcrypto.h                                                                                                                                                                                    │   ├── miner.h                                                                                                                                                                                        │   └── wallet.h                                                                                                                                                                                       └── src                                                                                                                                                                                                    ├── blockchain.c                                                                                                                                                                                       ├── cabcrypto.c                                                                                                                                                                                        ├── main.c                                                                                                                                                                                             ├── miner.c                                                                                                                                                                                            ├── pool.c                                                                                                                                                                                             └── wallet.c
+mycoin-crypto-cab/
+├── Makefile                         # File build system
+├── build/                           # Output hasil kompilasi
+│   ├── cabcoin                      # Binary utama
+│   ├── wallet.dat                   # Data dompet
+│   ├── pool/                        # (Opsional) Data mining pool
+│   └── data/                        # Data blockchain
+│       └── chain.dat               # File rantai blok
+├── include/                         # Header files (deklarasi fungsi)
+│   ├── blockchain.h
+│   ├── cabcrypto.h
+│   ├── miner.h
+│   └── wallet.h
+└── src/                             # Source code utama
+    ├── main.c
+    ├── blockchain.c
+    ├── cabcrypto.c
+    ├── miner.c
+    ├── wallet.c
+    └── pool.c
 ```
 
 ---
