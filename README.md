@@ -38,6 +38,7 @@ $ cd cabcoin
 $ make
 $ cd build
 $ ./cabcoin help
+```
 
 
 ---
